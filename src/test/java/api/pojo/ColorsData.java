@@ -1,13 +1,13 @@
-package api;
+package api.pojo;
 
-public class PojoColorsData {
+public class ColorsData {
     private Integer id;
     private String name;
     private Integer year;
     private String color;
     private String pantone_value;
 
-    public PojoColorsData(Integer id, String name, Integer year, String color, String pantone_value) {
+    public ColorsData(Integer id, String name, Integer year, String color, String pantone_value) {
         this.id = id;
         this.name = name;
         this.year = year;

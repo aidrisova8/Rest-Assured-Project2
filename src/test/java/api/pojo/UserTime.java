@@ -1,10 +1,10 @@
-package api;
+package api.pojo;
 
-public class PojoUserTime {
+public class UserTime {
     private String name;
     private  String job;
 
-    public PojoUserTime(String name, String job) {
+    public UserTime(String name, String job) {
         this.name = name;
         this.job = job;
     }

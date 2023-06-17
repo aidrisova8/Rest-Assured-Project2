@@ -1,10 +1,10 @@
-package api;
+package api.pojo;
 
-public class PojoUserTimeResponse extends PojoUserTime{
+public class UserTimeResponse extends UserTime {
 
     private String updatedAt;
 
-    public PojoUserTimeResponse(String name, String job, String updatedAt) {
+    public UserTimeResponse(String name, String job, String updatedAt) {
         super(name, job);
         this.updatedAt = updatedAt;
     }

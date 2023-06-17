@@ -1,6 +1,6 @@
-package api;
+package api.pojo;
 
-public class PojoUserData {
+public class UserData {
 
     private Integer id;
     private String email;
@@ -8,7 +8,7 @@ public class PojoUserData {
     private String last_name;
     private String avatar;
 
-    public PojoUserData(Integer id, String email, String first_name, String last_name, String avatar) {
+    public UserData(Integer id, String email, String first_name, String last_name, String avatar) {
         this.id = id;
         this.email = email;
         this.first_name = first_name;

@@ -1,6 +1,6 @@
-package api;
+package api.pojo;
 
-public class PojoRegisterSuccess {
+public class RegisterSuccess {
 
     private Integer id;
     private String token;
@@ -13,7 +13,7 @@ public class PojoRegisterSuccess {
         return token;
     }
 
-    public PojoRegisterSuccess(Integer id, String token) {
+    public RegisterSuccess(Integer id, String token) {
         this.id = id;
         this.token = token;
 

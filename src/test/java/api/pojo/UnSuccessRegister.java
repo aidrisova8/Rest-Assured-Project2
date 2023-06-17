@@ -1,13 +1,13 @@
-package api;
+package api.pojo;
 
-public class PojoUnSuccessRegister {
+public class UnSuccessRegister {
     private String error;
 
     public String getError() {
         return error;
     }
 
-    public PojoUnSuccessRegister(String error) {
+    public UnSuccessRegister(String error) {
         this.error = error;
     }
 }

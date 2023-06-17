@@ -1,10 +1,10 @@
-package api;
+package api.pojo;
 
-public class PojoRegister {
+public class Register {
     private String email;
     private String password;
 
-    public PojoRegister(String email, String password) {
+    public Register(String email, String password) {
         this.email = email;
         this.password = password;
     }
